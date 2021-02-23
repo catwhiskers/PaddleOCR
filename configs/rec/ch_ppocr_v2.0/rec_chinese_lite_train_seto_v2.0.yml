@@ -6,7 +6,7 @@ Global:
   save_model_dir: /opt/ml/model/rec_chinese_lite_v2.0
   save_epoch_step: 3
   # evaluation is run every 5000 iterations after the 4000th iteration
-  eval_batch_step: [0, 200]
+  eval_batch_step: [0, 1000]
   # if pretrained_model is saved in static mode, load_static_weights must set to True
   cal_metric_during_train: True
   pretrained_model: pretrain_models/ch_ppocr_mobile_v2.0_rec_pre/best_accuracy
